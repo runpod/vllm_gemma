@@ -50,7 +50,7 @@ from vllm.config import LoRAConfig
 KVCache = Tuple[torch.Tensor, torch.Tensor]
 
 
-class MistralMLP(nn.Module):
+class GemmaMLP(nn.Module):
 
     def __init__(
         self,
